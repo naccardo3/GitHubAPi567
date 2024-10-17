@@ -1,8 +1,7 @@
 language: python
 python:
-  - "3.8"
+  - "3.12.6"
 install:
-  - pip install requests
-  - pip install pytest
+  - pip install requests pytest
 script:
   - PYTHONPATH=$(pwd) pytest
