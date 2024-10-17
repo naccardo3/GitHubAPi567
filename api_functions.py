@@ -1,5 +1,5 @@
 import requests
-from github_api import get_repos, get_commit_count
+from api_functions import get_repos, get_commit_count
 
 def get_repos(user_id):
     try:
