@@ -1,4 +1,5 @@
 import requests
+from github_api import get_repos, get_commit_count
 
 def get_repos(user_id):
     try:
@@ -29,5 +30,6 @@ def get_repos_and_commits(user_id):
     return repo_commits
 
 if __name__ == '__main__':
-    user_id = 'naccardo3'
+    user_id = 'naccardo3' 
     print(get_repos_and_commits(user_id))
+     
