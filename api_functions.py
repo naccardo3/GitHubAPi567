@@ -35,8 +35,4 @@ def get_repos_and_commits(user_id):
         commit_count = get_commit_count(user_id, repo)
         repo_commits.append(f"Repo: {repo}, Number of commits: {commit_count}")
     return repo_commits
-
-if __name__ == '__main__':
-    user_id = 'naccardo3' 
-    print(get_repos_and_commits(user_id))
      
