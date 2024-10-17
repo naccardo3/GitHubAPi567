@@ -4,5 +4,6 @@ python:
 install:
   - pip install requests
   - pip install pytest
+  - pip install urllib3==1.26.11
 script:
   - PYTHONPATH=$(pwd) pytest
