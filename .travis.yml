@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.12.6"
+  - "3.12"
 install:
   - pip install requests pytest
 script:
