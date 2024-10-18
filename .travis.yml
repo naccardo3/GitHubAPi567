@@ -4,4 +4,6 @@ python:
 install:
   - pip install requests pytest
 script:
-  - PYTHONPATH=$(pwd) pytest
+  - echo $PYTHONPATH 
+  - ls -al  
+  - PYTHONPATH=$(pwd) pytest  
