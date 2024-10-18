@@ -3,6 +3,7 @@ python:
   - "3.8"
 install:
   - pip install requests pytest
+  - pip install urllib3==1.26.11
 script:
   - echo $PYTHONPATH 
   - ls -al  
