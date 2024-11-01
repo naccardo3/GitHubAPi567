@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from api_functions import get_repos, get_commit_count
+from api_functions import  get_repos, get_commit_count
 
 class TestGitHubAPI(unittest.TestCase):
 
